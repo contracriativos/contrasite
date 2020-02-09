@@ -1,0 +1,92 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i|Work+Sans:400,600,700,800&display=swap');
+@import url('medium.css');
+@import url("small.css");
+
+.container {
+    width: 100%;
+    padding: 0 6%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 28px 0;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.container .content {
+    width: 80%;
+    padding-top: 6%;
+}
+
+.container .content p {
+    margin-top: 28px;
+}
+
+.container .content h2 {
+    margin-top: 36px;
+}
+
+.container .content footer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.container .content footer .logoC {
+    margin-right: 24px;
+}
+
+.container .content footer a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.container .navegation {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    padding: 6% 0 6% 8%;
+    top: 0;
+    align-items: center;
+}
+
+.container .navegation .hamburguer .circ {
+    background-color: black;
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    margin-top: 5px;
+}
