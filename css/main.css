@@ -116,6 +116,10 @@ pointer-events: visible;
     display: none;
 }
 
+.mobileOnly {
+    display: none;
+}
+
 
 /* Small screens */
 
