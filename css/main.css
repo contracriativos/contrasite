@@ -116,10 +116,40 @@ pointer-events: visible;
     display: none;
 }
 
+.container .content p span a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 0 0 5px 0;
+    color: red;
+}
+  
+.container .content p span a:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    background-color: red;
+    -webkit-transition: all .1s ease;
+    transition: all 0.3s ease;  
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+}
+  
+.container .content p span a:hover:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
 .mobileOnly {
     display: none;
 }
-
 
 /* Small screens */
 
@@ -186,6 +216,10 @@ pointer-events: visible;
         align-items: center;
     }
     
+    .container .navegation .hamburguer {
+        margin-bottom: 24px;
+    }
+
     .container .navegation .hamburguer .circ {
         background-color: black;
         width: 8px;
