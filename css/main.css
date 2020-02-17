@@ -1,5 +1,5 @@
 @import url('reset.css');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i|Work+Sans:400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i,800,800i&display=swap');
 
 .container {
     width: 100%;
@@ -7,33 +7,30 @@
     display: flex;
     position: relative;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-family: 'Space mono', sans-serif;
     font-size: 124px;
-    font-weight: bold;
+    font-weight: 700;
     color: black;
 }
 
 h2 {
-    font-family: 'Work Sans', sans-serif;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
     color: black;
 }
 
 h3 {
-    font-family: 'Work Sans', sans-serif;
     font-size: 36px;
     font-weight: 700;
     margin: 28px 0;
 }
 
 p {
-    font-family: 'Work Sans', sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.4em;
 }
 
@@ -43,15 +40,19 @@ p {
 }
 
 .container .content p {
-    margin-top: 14px;
+    margin-top: 16px;
+}
+
+.container .content .firstBlockOpen {
+    margin-top: 96px;
 }
 
 .container .content .blockOpen {
-    margin-top: 52px;
+    margin-top: 48px;
 }
 
 .container .content .blockClose {
-    margin-bottom: 52px;
+    margin-bottom: 48px;
 }
 
 .container .content h2 {
@@ -71,7 +72,6 @@ p {
 
 .container .content footer a {
     text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: black;
@@ -91,7 +91,6 @@ p {
 
 .container .navegation .menu nav a {
     display: block;
-    font-family: 'Work Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.4em;
@@ -169,7 +168,8 @@ pointer-events: visible;
     
     h3 {
         font-size: 24px;
-        margin: 28px 0;
+        /* margin: 28px 0; */
+        line-height: 1.3em;
     }
     
     p {
@@ -182,9 +182,13 @@ pointer-events: visible;
     }
     
     .container .content p {
-        margin-top: 28px;
+        margin-top: 18px;
     }
     
+    .container .content .firstBlockOpen {
+        margin-top: 72px;
+    }
+
     .container .content footer {
         display: flex;
         position: relative;
@@ -198,7 +202,6 @@ pointer-events: visible;
     
     .container .content footer a {
         text-decoration: none;
-        font-family: 'Work Sans', sans-serif;
         font-size: 18px;
         font-weight: 600;
         color: black;
@@ -268,7 +271,6 @@ pointer-events: visible;
       }
 
     .mobileOnly ul li a {
-        font-family: 'Work Sans', sans-serif;
         font-size: 42px;
         font-weight: 700;
         line-height: 1.4em;
